@@ -3,9 +3,13 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>GoIT test Tweets</p>
-      </header>
+      <h1>GoIT test Tweets</h1>
+      <ul>
+        <li>Tweet 1</li>
+        <li>Tweet 2</li>
+        <li>Tweet 3</li>
+        <li>Tweet 4</li>
+      </ul>
     </div>
   );
 }

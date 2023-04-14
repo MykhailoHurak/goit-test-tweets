@@ -1,0 +1,10 @@
+.UserList__Box {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.UserList__Item {
+    padding-bottom: 10px;
+}

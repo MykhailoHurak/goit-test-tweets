@@ -1,15 +1,13 @@
 import './App.css';
+import UserList from "./components/UserList/UserList";
+
+import users from './users.json';
 
 function App() {
   return (
     <div className="App">
       <h1>GoIT test Tweets</h1>
-      <ul>
-        <li>Tweet 1</li>
-        <li>Tweet 2</li>
-        <li>Tweet 3</li>
-        <li>Tweet 4</li>
-      </ul>
+      <UserList  items={users} />
     </div>
   );
 }
